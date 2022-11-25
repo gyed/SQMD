@@ -7,6 +7,7 @@ from torch.utils.data import Subset, DataLoader
 from torchvision import datasets, transforms
 import random
 # from ptflops import get_model_complexity_info
+sys.path.append("..")
 from models.resnet1D import ResNet, BasicBlock
 from sklearn.metrics import precision_score, f1_score, recall_score
 import warnings
